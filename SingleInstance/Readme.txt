@@ -1,0 +1,1 @@
+﻿See: https://www.codeproject.com/articles/32908/c-single-instance-app-with-the-ability-to-restore
