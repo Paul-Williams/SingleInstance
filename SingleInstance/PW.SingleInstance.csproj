@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>PW.SingleInstance</Title>
+    <Description>PW.SingleInstance</Description>
+    <Copyright>© Paul WIlliams 2022</Copyright>
+    <PackageProjectUrl>https://github.com/Paul-Williams/SingleInstance</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Paul-Williams/SingleInstance</RepositoryUrl>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <AnalysisLevel>preview-recommended</AnalysisLevel>
+		<LangVersion>preview</LangVersion>
+		<RootNamespace>PW.SingleInstance</RootNamespace>
+		<PackageId>PW.SingleInstance</PackageId>
+		<Authors>Paul Williams</Authors>
+		<Product>PW.SingleInstance</Product>
+		<Company>Computer Station</Company>
+		<Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>7</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>7</WarningLevel>
+  </PropertyGroup>
+
+</Project>
